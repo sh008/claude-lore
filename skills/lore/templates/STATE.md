@@ -31,8 +31,13 @@
 
 ## Next steps
 
-1. <the single most likely next action>
-2. <then this>
+> Mark every step: `▶️` = actionable now · `⛔ [needs user]` = blocked on the user
+> (a credential, a decision, a judgement call, something only they can run or see).
+> A session picks the first `▶️` and starts; `⛔` items are reported as reminders, not asked about.
+
+1. ⛔ [needs user] <what only they can do, and what it unblocks>
+2. ▶️ <the first thing a session can actually start on>
+3. ▶️ <then this>
 
 ## Gotchas to remember right now
 

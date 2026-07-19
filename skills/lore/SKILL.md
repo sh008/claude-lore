@@ -34,6 +34,8 @@ Trigger: a session begins on a project containing `docs/lore/`, or the user says
 3. Open only the specific files the task needs.
 4. Tell the user briefly, in their language, where things stand and what the next step is per `STATE.md` — then wait or proceed as they asked.
 
+Steps in `STATE.md` are marked `▶️` (actionable now) or `⛔ [needs user]` (blocked on a credential, a decision, or something only the user can run or see). **Start the first `▶️` step rather than asking which to do** — mention the `⛔` ones once as reminders and move on. Asking the user to choose when the file already answers it defeats the point of having written it down.
+
 If `STATE.md` claims something is done, treat that as a claim to verify cheaply (run the test, check the file exists), not as ground truth. Records go stale; say so when one is wrong and fix it.
 
 ## Mode 2 — New project (init)
@@ -53,7 +55,7 @@ Trigger: a task finished, a bug was fixed, an approach failed, a design choice w
 
 Do this **at the end of a task, before reporting completion** — not batched at session end, where a context cutoff loses it.
 
-1. Update `STATE.md`: refresh the status section and its date, move finished items out.
+1. Update `STATE.md`: refresh the status section and its date, move finished items out, and mark each next step `▶️` or `⛔ [needs user]`.
 2. Append to `JOURNAL.md`: one dated entry, what was done and what changed.
 3. If a choice was made between real alternatives → append to `DECISIONS.md` with the rejected option and the reason.
 4. If time was lost to something → append to `LEARNINGS.md` with a `Trigger:` line.

@@ -85,6 +85,8 @@ Step 4 is the one that matters. The files are inert on their own — the protoco
 
 Just start working, or say *"continue"*. The agent reads `STATE.md` and `ROADMAP.md`, greps `LEARNINGS.md` for whatever it's about to touch, and tells you where things stand — without crawling the codebase.
 
+Next steps in `STATE.md` are marked `▶️` (actionable now) or `⛔ [needs user]` (blocked on an API key, a judgement call, something only you can run or see). The agent starts the first `▶️` instead of asking you to pick, and mentions the `⛔` ones once as reminders. Without that distinction it stalls on a question the file could already answer — which is how v1.0.1 came about.
+
 ### Recording
 
 Automatic at the end of each task, per the protocol block. You can also be explicit: *"record that"*, *"log this decision"*.

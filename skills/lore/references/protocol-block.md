@@ -21,13 +21,17 @@ recorded state instead of re-reading the repository.
    `grep -i -A6 "<area>" docs/lore/LEARNINGS.md`
 3. Open only the files the task needs. Do not rebuild context by reading the codebase —
    that is what these files replace.
+4. Next steps are marked `▶️` (actionable now) or `⛔ [needs user]` (blocked on a credential,
+   a decision, or something only the user can run or see). Start the first `▶️` step rather
+   than asking which to do; mention the `⛔` ones once as reminders.
 
 **Before changing anything architectural:** check `docs/lore/DECISIONS.md` for why the
 current shape was chosen. If you are about to reverse a recorded decision, say so
 explicitly to the user first.
 
 **At the end of each task, before reporting it done:**
-1. Update `docs/lore/STATE.md` — status, its date, and move finished items out.
+1. Update `docs/lore/STATE.md` — status, its date, move finished items out, and mark each
+   next step `▶️` or `⛔ [needs user]`.
 2. Append a dated entry to `docs/lore/JOURNAL.md`.
 3. If a choice was made between real alternatives → `docs/lore/DECISIONS.md`
    (include what was rejected and why).

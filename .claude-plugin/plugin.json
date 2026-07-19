@@ -1,7 +1,7 @@
 {
   "name": "lore",
   "description": "Persistent project knowledge base for Claude Code. Records current state, phased roadmap, decisions and their rejected alternatives, and failed approaches — so a new session resumes from what was recorded instead of re-reading the whole codebase.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": {
     "name": "sh008"
   },

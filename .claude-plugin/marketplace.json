@@ -5,14 +5,14 @@
   },
   "metadata": {
     "description": "The knowledge your codebase doesn't contain — decisions, dead ends, and state, recorded so the next session starts where the last one stopped.",
-    "version": "1.0.0"
+    "version": "1.0.1"
   },
   "plugins": [
     {
       "name": "lore",
       "source": "./",
       "description": "Persistent project knowledge base: STATE, ROADMAP, DECISIONS, LEARNINGS, JOURNAL under docs/lore/. A new session resumes from recorded state instead of re-reading the codebase.",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "author": {
         "name": "sh008"
       },
