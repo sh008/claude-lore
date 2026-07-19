@@ -1,0 +1,21 @@
+{
+  "name": "lore",
+  "description": "Persistent project knowledge base for Claude Code. Records current state, phased roadmap, decisions and their rejected alternatives, and failed approaches — so a new session resumes from what was recorded instead of re-reading the whole codebase.",
+  "version": "1.0.0",
+  "author": {
+    "name": "sh008"
+  },
+  "homepage": "https://github.com/sh008/claude-lore",
+  "repository": "https://github.com/sh008/claude-lore",
+  "license": "MIT",
+  "keywords": [
+    "memory",
+    "session-memory",
+    "context-management",
+    "decision-log",
+    "lessons-learned",
+    "documentation",
+    "onboarding"
+  ],
+  "category": "productivity"
+}
